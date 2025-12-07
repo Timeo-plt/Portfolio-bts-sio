@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <title>Menu</title>
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <span class="navbar-text h5 mb-0 fw-bold">Accueil</span>
+            </div>
+            </button>
+        </div>
+    </header>
+    <body class="bg-light">
+        <style>
+            .hero {
+                background: linear-gradient(135deg,#0d6efd 0%, #6610f2 100%);
+                color: #fff;
+                border-radius: .5rem;
+                padding: 1.5rem;
+            }
+            .card-hover { transition: transform .18s ease, box-shadow .18s ease; }
+            .card-hover:hover { transform: translateY(-6px); box-shadow: 0 10px 20px rgba(0,0,0,.12); }
+            .icon { width:48px; height:48px; display:inline-block; }
+        </style>
+
+        <main class="container py-5">
+            <section class="hero mb-4">
+                <div class="d-md-flex align-items-center gap-4">
+                    <div class="flex-shrink-0 text-center">
+                        <svg class="rounded-circle bg-white p-1" width="96" height="96" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="avatar">
+                            <circle cx="12" cy="8" r="3" fill="#0d6efd"/>
+                            <path d="M4 20c1.5-4 6-6 8-6s6.5 2 8 6" stroke="#0d6efd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="h3 mb-1 fw-bold">Bienvenue — Portfolio de Timeo Pilatte</h1>
+                        <p class="mb-0 opacity-75">BTS SIO (option SLAM). Découvrir mes projets, expériences et travaux de veille en développement et data/IA.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="row g-3 mb-4">
+                <div class="col-md-8">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title">Présentation rapide</h4>
+                            <p class="card-text">Je suis actuellement en BTS SIO, option SLAM. J'envisage de poursuivre par une licence/bachelor puis un master en data & IA. Ce portfolio regroupe mes projets scolaires, réalisations en entreprise et notes de veille.</p>
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item me-2"><span class="badge bg-primary">SLAM</span></li>
+                                <li class="list-inline-item me-2"><span class="badge bg-secondary">Data</span></li>
+                                <li class="list-inline-item"><span class="badge bg-info text-dark">Veille</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Contact rapide</h5>
+                            <p class="card-text mb-2">Retrouvez-moi :</p>
+                            <div class="d-flex justify-content-center gap-2">
+                                <a href="https://github.com/Timeo-plt" class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener">GitHub</a>
+                                <a href="https://www.linkedin.com" class="btn btn-outline-info btn-sm" target="_blank" rel="noopener">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="d-flex flex-column flex-md-row gap-3 justify-content-center mb-5">
+                <a href="../ecole/index.html" class="card card-hover text-decoration-none text-reset col-md-3 p-3 shadow-sm" role="link" aria-label="École">
+                    <div class="d-flex align-items-center gap-3">
+                        <svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2 L2 7 L12 12 L22 7 L12 2Z" fill="#0d6efd"/></svg>
+                        <div>
+                            <h6 class="mb-0">École</h6>
+                            <small class="text-muted">Projets & cours</small>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="../entreprise/index.html" class="card card-hover text-decoration-none text-reset col-md-3 p-3 shadow-sm" role="link" aria-label="Entreprise">
+                    <div class="d-flex align-items-center gap-3">
+                        <svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="3" y="7" width="18" height="10" rx="2" fill="#6610f2"/></svg>
+                        <div>
+                            <h6 class="mb-0">Entreprise</h6>
+                            <small class="text-muted">Expériences pro</small>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="../VI/index.html" class="card card-hover text-decoration-none text-reset col-md-3 p-3 shadow-sm" role="link" aria-label="Veille informatique">
+                    <div class="d-flex align-items-center gap-3">
+                        <svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="#198754"/></svg>
+                        <div>
+                            <h6 class="mb-0">Veille informatique</h6>
+                            <small class="text-muted">Articles & notes</small>
+                        </div>
+                    </div>
+                </a>
+            </section>
+        </main>
+
+        <footer class="bg-light border-top mt-auto" role="contentinfo" style="position:fixed;bottom:0;left:0;right:0;z-index:1030;">
+            <div class="container py-2">
+                <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                    <small class="text-muted">© 2025 Portfolio — Timeo Pilatte</small>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

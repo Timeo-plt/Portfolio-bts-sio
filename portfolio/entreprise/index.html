@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entreprise</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(90deg, var(--sb-primary) 0%, var(--sb-accent) 100%);">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="../files/Spie-Batignolles-Logo.jpg" alt="SB" height="40" class="me-2" style="border-radius:4px; object-fit:cover; width:40px;">
+                <span class="fw-bold">Partie Entreprise</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../ecole/index.html">Ecole</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../VI/index.html">Veille Informatique</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<style>
+    :root {
+        --sb-primary: #003366; 
+        --sb-accent:  #e6b800; 
+    }
+    .navbar { padding: .45rem 1rem; }
+    .nav-link { color: rgba(255,255,255,0.95); }
+    .nav-link:hover { color: #fff; text-decoration: underline; }
+</style>
+<body>
+        <div class="container my-4">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card shadow-sm">
+                        <img src="../files/Spie-Batignolles-Logo.jpg" class="card-img-top img-fluid rounded-top" alt="SB logo" style="object-fit:cover; height:220px;">
+                        <div class="card-body">
+                            <h5 class="card-title mb-1">SPIE BATIGNOLLES <span class="badge bg-warning text-dark ms-2">Entreprise</span></h5>
+                            <p class="text-muted mb-2">Spécialisée dans le bâtiment et les travaux publics.</p>
+                            <p class="mb-1"><strong>Partie informatique :</strong> Amitec</p>
+                            <div class="d-flex gap-2 mt-3">
+                                <a href="https://www.spiebatignolles.fr/" class="btn btn-primary btn-sm">Site officiel</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="col-lg-8">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Présentation</h5>
+                            <p>Voici un résumé de mes missions au support informatique au sein de l'entreprise.</p>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h6 class="mb-2">Support</h6>
+                                    <ul class="list-group list-group-flush shadow-sm">
+                                        <li class="list-group-item">Ticketing</li>
+                                        <li class="list-group-item">Préparation des postes</li>
+                                        <li class="list-group-item">Assistance aux utilisateurs</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <hr class="my-4">
+
+                            <h5 class="mb-3">Projets</h5>
+                            <div class="row row-cols-1 row-cols-md-2 g-3">
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Projet 1</h6>
+                                            <p class="card-text mb-1">Portail fournisseur — centralisation des commandes et factures.</p>
+                                            <a href="#" class="btn btn-outline-warning btn-sm" style="border-color:var(--sb-accent); color:var(--sb-accent)">Voir</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Projet 2</h6>
+                                            <p class="card-text mb-1">Informations badge pour gestion des absences.</p>
+                                            <a href="#" class="btn btn-outline-warning btn-sm" style="border-color:var(--sb-accent); color:var(--sb-accent)">Voir</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<footer class="bg-light text-center py-3 mt-auto">
+    <div class="container">
+        <small class="text-muted">© Timeo Pilatte — Partie Entreprise</small>
+    </div>
+</footer>
+
+</html>
